@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 14:03:07</sys_created_on>
+        <sys_id>a463cdf783be5210d038c265eeaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1088828_certmaxx_test_results.x_1088828_certmaxx.test_results_user</sys_name>
+        <sys_package display_value="Certmaxxer" source="x_1088828_certmaxx">ecbde47f833e5210d038c265eeaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Certmaxxer">ecbde47f833e5210d038c265eeaad303</sys_scope>
+        <sys_security_acl display_value="x_1088828_certmaxx_test_results">ac63cdf783be5210d038c265eeaad3ee</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a463cdf783be5210d038c265eeaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-06 14:03:07</sys_updated_on>
+        <sys_user_role display_value="x_1088828_certmaxx.test_results_user" name="x_1088828_certmaxx.test_results_user">1463857383be5210d038c265eeaad37e</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
