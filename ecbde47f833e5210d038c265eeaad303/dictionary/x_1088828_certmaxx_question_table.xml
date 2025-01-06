@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d01978fb837e5210d038c265eeaad3db" label="Question Bank" max_length="40" name="x_1088828_certmaxx_question_table" type="collection">
+        <element display="true" label="Is Multiple Choice" mandatory="true" max_length="40" name="is_multiple_choice" type="boolean"/>
+        <element label="Correct Answer Pattern" mandatory="true" max_length="100" name="correct_answer_pattern" type="string"/>
+        <element label="Certification Type" mandatory="true" max_length="100" name="certification_type" type="string"/>
+        <element label="Question Text" mandatory="true" max_length="4000" name="question_table" type="string"/>
+        <element label="All Answers" mandatory="true" max_length="4000" name="all_answers" type="string"/>
+    </element>
+</database>

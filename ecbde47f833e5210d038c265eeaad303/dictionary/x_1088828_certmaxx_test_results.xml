@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4082c13783be5210d038c265eeaad3d1" label="Test Results " max_length="40" name="x_1088828_certmaxx_test_results" type="collection">
+        <element default="0" label="Total Questions" mandatory="true" max_length="40" name="total_questions" type="integer"/>
+        <element display="true" label="Test Duration" mandatory="true" max_length="40" name="test_duration" type="glide_duration"/>
+        <element label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_date_time"/>
+        <element default="0" label="Score" mandatory="true" max_length="40" name="score" type="integer"/>
+        <element label="End Time" mandatory="true" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Incorrect Questions" mandatory="true" max_length="4000" name="incorrect_questions" type="string"/>
+        <element label="Certification Type" mandatory="true" max_length="100" name="certification_type" type="string"/>
+        <element default="0" label="Correct Answers" mandatory="true" max_length="40" name="correct_answers" type="integer"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
